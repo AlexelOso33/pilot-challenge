@@ -1,0 +1,12 @@
+services:
+  app:
+    working_dir: /var/www/html
+    container_name: pilot_api
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 8000:8000
+    volumes:
+      - ./:/var/www/html
+      - ./database:/var/www/html/database
