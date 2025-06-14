@@ -43,7 +43,7 @@ Sigue estos pasos para tener el proyecto funcionando en tu máquina local para d
    docker-compose up --build -d
    ```
 
-6. **Instala dependencias y ejecuta migraciones dentro del contenedor**
+6. **Instala dependencias, genera la app key y ejecuta migraciones dentro del contenedor**
    ```bash
    docker exec -it pilot_api composer install
    docker exec -it pilot_api php artisan key:generate
@@ -113,9 +113,9 @@ Esto ejecuta pruebas de integración sobre los endpoints principales de la API.
 
 ## Autor ✒️
 
-- **Alexis Sanchez**  
+- **Alexis Gabriel Sanchez**  
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-Perfil-blue?logo=linkedin)](https://linkedin.com/in/alexis-gabriel-sanchez)
 
 ---
 
-⌨️ con ❤️ por [Alexis Sanchez](https://linkedin.com/in/alexis-gabriel-sanchez)
+⌨️ con ❤️ por [Alexis Gabriel Sanchez](https://linkedin.com/in/alexis-gabriel-sanchez)
