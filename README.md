@@ -46,6 +46,7 @@ Sigue estos pasos para tener el proyecto funcionando en tu máquina local para d
 6. **Instala dependencias y ejecuta migraciones dentro del contenedor**
    ```bash
    docker exec -it pilot_api composer install
+   docker exec -it pilot_api php artisan key:generate
    docker exec -it pilot_api php artisan migrate
    ```
 
